@@ -8,13 +8,27 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { HistoriaPage } from '../pages/historia/historia';
 import { DibujoPage } from '../pages/dibujo/dibujo';
+import { PyePage } from '../pages/pye/pye';
+import { CienciasPage } from '../pages/ciencias/ciencias';
+import { PappsPage } from '../pages/papps/papps';
+import { ComPage } from '../pages/com/com';
+import { RobPage } from '../pages/rob/rob';
+import { MiPage } from '../pages/mi/mi';
+import { CalcPage } from '../pages/calc/calc';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     HistoriaPage,
-    DibujoPage
+    DibujoPage,
+    PyePage,
+    CienciasPage,
+    PappsPage,
+    ComPage,
+    RobPage,
+    MiPage,
+    CalcPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +39,14 @@ import { DibujoPage } from '../pages/dibujo/dibujo';
     MyApp,
     HomePage,
     HistoriaPage,
-    DibujoPage
+    DibujoPage,
+    PyePage,
+    CienciasPage,
+    PappsPage,
+    ComPage,
+    RobPage,
+    MiPage,
+    CalcPage
   ],
   providers: [
     StatusBar,
